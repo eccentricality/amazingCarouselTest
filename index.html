@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jason Kim Professional Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gudea:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/reset.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./assets/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+    <body>
+
+        <section class="style1" id="topSection">
+            <div class="mainContainer">
+                <div class="nameWrapper">
+                    <img id="logo" src="./assets/images/jkLogo.png">
+                </div>
+
+                <div class="headingWrapper">
+
+                        <div class="rightCol mx-auto">
+
+                            <div id="introShadow">
+                                <div id="introSection">
+                                    <h1 id="myName">HI, MY NAME IS JASON.</h1>
+                                    <h1 id="jobTitle"><span>FULL STACK DEVELOPER</span></h1>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="leftCol">
+
+                            <img id="profilePic" src="assets/images/profileMini.jpg"/>
+                            <h1 id="introQuote">User-Focused Web Developer skilled in JavaScript, <br>HTML and CSS with extreme levels of aptitude and penchant for knowledge. </h1>
+                        </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="style1" id="myProjectsSection">
+            
+            <div class="mainContainer">
+                
+                <h1>Projects I enjoyed working on<span>.</span></h1>
+
+            </div>
+
+            <div class="carouselWrapper">
+                <!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-primary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-primary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-primary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-primary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4" class="bg-primary"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5" class="bg-primary"></li>
+                    </ol>
+    
+                    <div class="carousel-inner mx-auto">
+    
+    
+                        <div class="carousel-item active">
+                            <div class="projects ml-auto mr-auto mx-auto">
+                                <img class="projectThumbnail" src="./assets/images/weatherIcon.png">
+                                <div class="projectDetails">
+                                    <h6 class="projectTitle">WEATHER FORECAST</h6>
+                                    <br>
+                                    <p class="projectInfo">Users can search for a forecast of a city, state, or country. Retains search history in local storage.</p>
+                                    <a target="_blank" href="https://github.com/eccentricality/weatherSearch" class="btn btn-primary">View Code</a>
+                                    <a target="_blank" href="https://eccentricality.github.io/weatherSearch/" class="btn btn-primary">Live Demo</a>
+                                </div>
+                            </div>
+                          </div>
+
+
+                          <div class="carousel-item">
+                            <div class="projects ml-auto mr-auto mx-auto">
+                                <img class="projectThumbnail" src="./assets/images/movieIcon.png">
+                                <div class="projectDetails">
+                                    <h6 class="projectTitle">MOVIE DATA SEARCH</h6>
+                                    <br>
+                                    <p class="projectInfo">Users can search for their favorite movies to obtain list of actors and fun facts about the movie.</p>
+                                    <a target="_blank" href="https://github.com/eccentricality/hollywoodHackers" class="btn btn-primary">View Code</a>
+                                    <a target="_blank" href="https://eccentricality.github.io/hollywoodHackers/" class="btn btn-primary">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                          <div class="carousel-item">
+                            <div class="projects ml-auto mr-auto mx-auto">
+                                <img class="projectThumbnail" src="./assets/images/calendarIcon.png">
+                                <div class="projectDetails">
+                                    <h6 class="projectTitle">DAILY SCHEDULER</h6>
+                                    <br>
+                                    <p class="projectInfo">Users can locally store daily to-do items in each time slot by the hour. Date and time will update to present.</p>
+                                    <a target="_blank" href="https://github.com/eccentricality/workDay" class="btn btn-primary">View Code</a>
+                                    <a target="_blank" href="https://eccentricality.github.io/workDay/" class="btn btn-primary">Live Demo</a>
+                                </div>
+                            </div>
+                          </div>
+    
+    
+                          <div class="carousel-item">
+                            <div class="projects ml-auto mr-auto mx-auto">
+                                <img class="projectThumbnail" src="./assets/images/quizIcon.png">
+                                <div class="projectDetails">
+                                    <h6 class="projectTitle">CODE QUIZ</h6>
+                                    <br>
+                                    <p class="projectInfo">Users can take a timed quiz. Participant will lose remaining time if answers are incorrect. Score saving optional.</p>
+                                    <a target="_blank" href="https://github.com/eccentricality/codeQuiz" class="btn btn-primary">View Code</a>
+                                    <a target="_blank" href="https://eccentricality.github.io/codeQuiz/" class="btn btn-primary">Live Demo</a>
+                                </div>
+                            </div>
+                          </div>
+    
+    
+                          <div class="carousel-item">
+                            <div class="projects ml-auto mr-auto mx-auto">
+                                <img class="projectThumbnail" src="./assets/images/gameIcon.png">
+                                <div class="projectDetails">
+                                    <h6 class="projectTitle">ROCK, PAPER, SCISSORS</h6>
+                                    <br>
+                                    <p class="projectInfo">User can participate in an interactive game. Computer player will randomly generate a move in response to user.</p>
+                                    <a target="_blank" href="https://github.com/eccentricality/RPS" class="btn btn-primary">View Code</a>
+                                    <a target="_blank" href="https://eccentricality.github.io/RPS/" class="btn btn-primary">Live Demo</a>
+                                </div>
+                            </div>
+                          </div>
+    
+    
+                          <div class="carousel-item">
+                            <div class="projects ml-auto mr-auto mx-auto">
+                                <img class="projectThumbnail" src="./assets/images/passwordIcon.png">
+                                <div class="projectDetails">
+                                    <h6 class="projectTitle">PASSWORD GENERATOR</h6>
+                                    <br>
+                                    <p class="projectInfo">User can generate a password between <br>8-128 characters long. Lower case, upper case, numbers & symbols optional.</p>
+                                    <a target="_blank" href="https://github.com/eccentricality/pwGenerator" class="btn btn-primary">View Code</a>
+                                    <a target="_blank" href="https://eccentricality.github.io/pwGenerator/" class="btn btn-primary">Live Demo</a>
+                                </div>
+                            </div>
+                          </div>
+    
+    
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+    
+                  </div>
+
+            </div>
+            
+        </section>
+
+        <section class="style2" id="aboutMeSection">
+
+            <div class="mainContainer">
+
+                <div class="aboutMeWrapper">
+
+                    <div class="aboutMe">
+
+                        <h1>Who I am<span>.</span></h1>
+
+                        <div class="aboutMeParagraph">
+
+                            <p>Trained professional with 10 years of learning experiences within industries ranging from grassroots, to legal, to financial institutions; bringing unparalleled levels of soft skills and professionalism, coupled with intelligence and analytics.</p>
+                            <p>Highly technical by nature and a team player, successful on numerous occasions in a team environment collaborating across diverse groups both as a leader and a teammate; for example, my times as a civic engagement associate as well as teammate for Bootcamp projects.</p>
+                            <p>Eager candidate looking to bring these experiences to add immense values as well as learn and continuously adapt in a collaborative environment.</p>
+                            <div class="resumeButton text-center">
+
+                                <a target="_blank" href="./assets/resume.pdf" class="btn btn-primary btn-lg ">MY RESUME</a>
+
+
+                            </div>
+    
+                        </div>
+
+                        <div id="skillsList">
+        
+                        </div>
+
+                    </div>
+
+                    <div class="socialMedia">
+                        <img id="socialImg" class="mx-auto d-block" src="assets/images/skillsHorizontal.png">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="style2" id="contactMeSection">
+            <div class="mainContainer">
+                <h1>Find me at<span>.</span></h1>
+                <div class="socialMediaImgWrapper mx-auto text-center row">
+
+                    <a class="col"></a>
+                    <a class="col"></a>
+                    <a target="_blank" href="https://github.com/eccentricality" id="socialMediaImg1" class="col"><img src="assets/images/gitHub.png"></a>
+                    <a target="_blank" href="mailto:jason@jsonkimify.tech" id="socialMediaImg2" class="col"><img src="assets/images/emailLogo.png"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jasondotkim/" id="socialMediaImg3" class="col"><img src="assets/images/linkedIn.png"></a>
+                    <a class="col"></a>
+                    <a class="col"></a>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <footer>
+                <p class="text-center"><img id="copyrightLogo" src="assets/images/copyright.png"> Jason Kim 2021. All rights reserved.</p>
+            </footer>
+        </section>
+
+        
+        <script src="./assets/script.js" async defer></script>
+    </body>
+</html>
